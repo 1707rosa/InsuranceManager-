@@ -3,7 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoInsure.Web", "AutoInsure.Web\AutoInsure.Web.csproj", "{A0843F73-52D1-4F78-BEE9-61FA61E571A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoInsure.Api", "AutoInsure.Api\AutoInsure.Api.csproj", "{F8C58A8C-499C-4EA8-A6E1-30C920F69E10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoInsure.Application", "AutoInsure.Application\AutoInsure.Application.csproj", "{98BA90D6-2ED5-47D4-A717-3718C9CE3B2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoInsure.Domain", "AutoInsure.Domain\AutoInsure.Domain.csproj", "{38DDDD0F-7986-458B-A197-C01FCE730091}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoInsure.Infraestructure", "AutoInsure.Infraestructure\AutoInsure.Infraestructure.csproj", "{42A28C71-B9FA-4A92-B27D-EC7313332C82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoInsure.IOC", "AutoInsure.IOC\AutoInsure.IOC.csproj", "{7D84EA50-A1FE-4B38-A7B1-E8E34C95C207}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0843F73-52D1-4F78-BEE9-61FA61E571A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0843F73-52D1-4F78-BEE9-61FA61E571A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0843F73-52D1-4F78-BEE9-61FA61E571A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0843F73-52D1-4F78-BEE9-61FA61E571A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8C58A8C-499C-4EA8-A6E1-30C920F69E10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C58A8C-499C-4EA8-A6E1-30C920F69E10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C58A8C-499C-4EA8-A6E1-30C920F69E10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C58A8C-499C-4EA8-A6E1-30C920F69E10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98BA90D6-2ED5-47D4-A717-3718C9CE3B2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98BA90D6-2ED5-47D4-A717-3718C9CE3B2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98BA90D6-2ED5-47D4-A717-3718C9CE3B2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98BA90D6-2ED5-47D4-A717-3718C9CE3B2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38DDDD0F-7986-458B-A197-C01FCE730091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38DDDD0F-7986-458B-A197-C01FCE730091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38DDDD0F-7986-458B-A197-C01FCE730091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38DDDD0F-7986-458B-A197-C01FCE730091}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A28C71-B9FA-4A92-B27D-EC7313332C82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A28C71-B9FA-4A92-B27D-EC7313332C82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A28C71-B9FA-4A92-B27D-EC7313332C82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A28C71-B9FA-4A92-B27D-EC7313332C82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D84EA50-A1FE-4B38-A7B1-E8E34C95C207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D84EA50-A1FE-4B38-A7B1-E8E34C95C207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D84EA50-A1FE-4B38-A7B1-E8E34C95C207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D84EA50-A1FE-4B38-A7B1-E8E34C95C207}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
